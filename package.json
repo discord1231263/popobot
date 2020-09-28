@@ -1,0 +1,12 @@
+{
+  "name": "popo.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "f",
+  "scripts": {
+    "popo": "node popo.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
