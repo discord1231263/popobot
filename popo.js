@@ -31,10 +31,15 @@ client.on("guildMemberRemove", (member) => {
 client.on('message', (message) => {
   if(message.author.bot) return;
 
-  if(message.content == 'ping') {
-    return message.reply('pong');
+  if(message.content == '기훈이 알아?') {
+    return message.reply('아~ 그 영록이 ?');
   }
-
+  if(message.content == '/기훈이') {
+    return message.reply('```기훈봇 명령어 : !청 (숫자) !전체공지 (할말) ```');
+  }
+  if(message.content == '정영록 알아?') {
+    return message.reply('아~ 그 지현이?');
+  }
   if(message.content == 'embed') {
     let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
     let embed = new Discord.RichEmbed()
@@ -92,10 +97,10 @@ client.on('message', (message) => {
     }
   }
 
-  if(message.content.startsWith('!청소')) {
+  if(message.content.startsWith('!청')) {
     if(checkPermission(message)) return
 
-    var clearLine = message.content.slice('!청소 '.length);
+    var clearLine = message.content.slice('!청 '.length);
     var isNum = !isNaN(clearLine)
 
     if(isNum && (clearLine <= 0 || 100 < clearLine)) {
