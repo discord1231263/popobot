@@ -2,7 +2,7 @@
   "name": "sat",
   "version": "1.0.0",
   "description": "",
-  "main": "sat.js",
+  "main": "popo.js",
   "scripts": {
     "t": "node popo.js"
   },
