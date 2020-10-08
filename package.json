@@ -1,12 +1,12 @@
 {
-  "name": "popo.js",
+  "name": "sat",
   "version": "1.0.0",
   "description": "",
-  "main": "f",
+  "main": "sat.js",
   "scripts": {
-    "popo": "node popo.js"
+    "t": "node sat.js"
   },
   "dependencies": {
-    "discord.js": "^11.5.1"
+    "discord.js": "^12.3.1"
   }
 }
