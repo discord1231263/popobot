@@ -7,6 +7,6 @@
     "t": "node popo.js"
   },
   "dependencies": {
-    "discord.js": "^12.3.1"
+    "discord.js": "^11.5.1"
   }
 }
